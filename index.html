@@ -142,7 +142,7 @@
   <div class="container text-center">
     <h2>Contato</h2>
     <p>Entre em contato para trocar ideias sobre tecnologia e sites.</p>
-    <a href="#" class="btn btn-dark">Falar comigo</a>
+    <a href="#" id="falecomigo" class="btn btn-dark">Falar comigo</a>
   </div>
 </section>
 
@@ -153,5 +153,14 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    const botao = document.getElementById("falecomigo");
+
+  botao.addEventListener("click", function () {
+    window.open("https://wa.me/5527999562749");
+  });
+</script>
 </body>
 </html>
+
