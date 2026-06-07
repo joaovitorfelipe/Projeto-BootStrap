@@ -1,0 +1,76 @@
+body{
+    scroll-behavior:smooth;
+    transition:0.4s;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(120deg,#000,#1f1f1f);
+    color:white;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    background:black;
+    color:#aaa;
+    padding:20px;
+}
+
+/* TEMA ESCURO */
+
+.dark-mode{
+    background:#000;
+    color:white;
+}
+
+.dark-mode section{
+    background:#000 !important;
+    color:white !important;
+}
+
+.dark-mode .bg-light{
+    background:#111 !important;
+}
+
+.dark-mode .card{
+    background:#1a1a1a;
+    color:white;
+    border:1px solid #333;
+}
+
+.dark-mode .card p{
+    color:#ddd;
+}
+
+.dark-mode .navbar{
+    background:#000 !important;
+}
+
+.dark-mode footer{
+    background:#000;
+    color:white;
+}
+
+.dark-mode .btn-dark{
+    background:white;
+    color:black;
+    border:none;
+}
+
+.dark-mode .faq-text{
+    color:#ddd;
+}
+
+body{
+    background:#f8f9fa;
+    color:#212529;
+}
